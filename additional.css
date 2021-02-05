@@ -1,0 +1,308 @@
+/* Date/Author on post */
+.content .entry-header p.entry-meta{
+	display:none;
+}
+
+/* 4 img on bottom */
+.image-section .widget-area {
+	max-width:80%;
+	padding-bottom:0px;
+}
+.image-section .widget-area .post{
+	width:25%;
+	float:left;
+	padding-left:10px;
+}
+.image-section .widget-area .entry-title{
+	font-size:12px;
+	margin-bottom:0px;
+}
+.image-section .widget-area .widget-title{
+	text-align:left;
+}
+
+/* Recipe index checklist */
+.one-third .one-half{
+	width:100%;
+	margin-left:0%;
+}
+.facetwp-counter {
+    display: none;
+}
+
+/* -- height between lines */
+.recipe-search{
+	line-height: 1.8;
+	margin-top:-5%;
+}
+
+/* RecipeGridText */
+.grid-text-height{
+	line-height:1.5;
+}
+
+/* --Page numbers on bottom */
+.facetwp-pager{
+	float:right;
+}
+
+/* top text above featured img */
+.home-full-grid .widget_nav_menu .widget-title{
+	letter-spacing: 1.5px;
+	font-size:5rem;
+}
+
+/* line after meet team */
+.image-section-2 .widget-title::after{
+	display:none;
+}
+
+/* Email bar */
+.home-full-width {
+	background-color:#d6e9e5;
+	padding:3%;
+	border-top: 5px double #fff;
+  border-bottom: 5px double #fff;
+}
+.home-full-width .enews-widget{
+	width:100%;
+}
+/* --name input box */
+.home-full-width .enews input{
+	float:left;
+	width:14%;
+	margin-left:1%;
+	margin-right:0% !important;
+	margin-top:1%;
+}
+/* --email input box */
+.home-full-width .enews #subbox{
+	width:14%;
+	float:left;
+}
+/* --email button */
+.home-full-width .enews input[type="submit"]{
+	width:14%;
+	float:left;
+}
+/* --Suscribe text */
+.home-full-width .widget-title{
+	float:left;
+	width:20%;
+	text-align:center;
+}
+/* --caption text */
+.home-full-width .enews-widget p{
+	float:left;
+	width:35%;
+	font-size: 1.9rem;
+  line-height: 1.4;
+	text-align:center;
+	padding-top:1.2%;
+	margin-bottom:0px;	
+}
+/* text above first post */
+.content .widget-title{
+left:0px !important;
+}
+
+/*logo*/
+.menu-image{
+	height: 80px;
+}
+
+/* Social icons above post */
+.dpsp-networks-btns-wrapper, .dpsp-network-btn{
+	 margin-top: 1%;
+}
+
+@media only screen and (max-width: 1200px) {
+
+/*logo*/
+.logoImage {
+	display:none !important;
+}
+
+/* email bar */
+/* --Suscribe text email bar */
+.home-full-width .widget-title{
+	font-size:5rem;	
+}	
+/* --caption text */
+.home-full-width .enews-widget p{
+	font-size: 1.6rem;
+}
+	
+/* text above first post */
+.content .widget-title{
+	font-size:7rem !important;
+}
+	
+/* text on featured images */
+.hyd-entry .featuredpost .entry-header .entry-title a {
+    font-size: 2rem;
+}
+	
+	/* header image	 */
+.site-title a{
+	height:110px !important;
+}
+.header-image .site-title a{
+	background-position: left center !important;	
+	
+}
+.site-title{
+	padding-left:0px;
+	padding-top:1%;
+}	
+.site-header{
+		height:140px;
+	min-height:100px;
+	margin-bottom:-2%;
+}
+.site-header .title-area{
+		width:100%;
+}
+	
+	
+}
+
+@media only screen and (max-width: 945px) {
+.sidebar .entry-title{
+	padding-top: 4% !important;
+} 
+/* text box on featured img */
+.hyd-entry .featuredpost .entry-header .entry-title a {
+    font-size: 1.8rem;
+}
+	
+	/* header image	 */
+.site-title a{
+/* 		height:120px !important; */
+}
+.site-title{
+	padding-left:0px;
+	padding-top:0px;
+}	
+.site-header{
+		height:120px;
+}
+	
+	
+}
+
+@media only screen and (max-width: 800px) {
+/* our most popular menu items */
+.menu-item-object-category{
+		display:none !important;
+}
+	
+/* email bar */
+/* --name input box */
+.home-full-width .enews input{
+	width:100%;
+}
+
+/* --email input box */
+.home-full-width .enews #subbox{
+	width:100%;
+}
+/* --button */
+.home-full-width .enews input[type="submit"]{
+	width:100%;
+}
+/* --Suscribe text */
+.home-full-width .widget-title{
+	width:50%;
+}
+/* --caption text */
+.home-full-width .enews-widget p{
+	width:50%;
+}
+/* recipeIndex checkbox */
+.one-third .one-half{
+	width:50%;
+	margin-left:0%;
+}
+
+	/* hide main sidebar on home page for mobile */
+	.home .content + .sidebar-primary {display: none;}
+}
+
+@media only screen and (max-width: 600px) {
+	
+/* nav menu items */
+.genesis-responsive-menu .genesis-nav-menu .menu-item a {
+		text-align:right;
+}
+	.menu-toggle{
+	text-align:right;
+	float:right;
+	padding:0px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:9px;
+	width:30%;	
+}
+.menu-toggle::before {
+ font-size:2.4rem;
+}
+	
+/* 	Header */
+.site-header{
+	display:block;
+	height:0px;
+	min-height:100px;
+	margin-bottom:-4%;
+}
+.site-title a{
+	height:90px !important;
+}
+.header-image .site-title a{
+	background-position: left center !important;	
+}
+.one-third .one-half{
+	width:100%;
+	margin-left:0%;
+}
+	
+/* featured post text	 */
+.hyd-entry .featuredpost .entry-header .entry-title a {
+  font-size:2.5rem;
+}
+
+/* 4 wide image	 */
+.image-section .widget-area {
+	max-width:100%;
+	width:100%;
+	padding-bottom:0px;
+}
+.image-section .widget-area .post{
+	width:100%;
+	float:left;
+	padding-left:0px;
+	padding-top:10px;
+
+}
+.image-section .widget-area .entry-title{
+	font-size:12px;
+	margin-bottom:0px;
+}
+
+/* opt in form	 */
+.first-optin{
+	margin-top:-40%;
+}
+	
+/* text above first post */
+.content .widget-title{
+	font-size:6rem !important;
+	float:right;
+	margin-top:-5%;
+}
+.content .widget-title::after{
+	display:none !important;
+}
+
+	
+}
